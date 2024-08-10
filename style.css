@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: hsl(30, 54%, 90%);
+  font-size: 1.6rem;
+  font-family: "outfit", sans-serif;
+  font-weight: 400;
+  color: hsl(30, 10%, 34%);
+  /* line-height: 1; */
+}
+
+.margin-md-btm {
+  margin-bottom: 2rem;
+}
+
+.main-container {
+  width: 72rem;
+  background-color: hsl(0, 0%, 100%);
+  margin: 10rem auto;
+  border-radius: 10px;
+  padding: 2.4rem 0;
+}
+
+.container,
+.img-container {
+  padding: 0 2.4rem;
+}
+
+.hero-img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 2.5rem;
+}
+
+.heading-primary,
+.heading-secondary {
+  font-family: "young serif", sans-serif;
+  font-weight: 400;
+  margin-bottom: 1.8rem;
+}
+
+.heading-primary {
+  color: hsl(24, 5%, 18%);
+}
+
+.heading-secondary {
+  color: hsl(332, 51%, 32%);
+}
+
+.list-title {
+  color: hsl(332, 51%, 32%);
+  font-weight: 600;
+  margin-bottom: 1.4rem;
+}
+
+.preparation {
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 10px;
+  padding: 2rem;
+}
+.preparation .list {
+  padding: 0 2.8rem;
+}
+.preparation span {
+  margin-left: 1.2rem;
+}
+
+.instructions {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  padding-bottom: 1.2rem;
+}
+
+span {
+  font-weight: 600;
+}
+
+.list li {
+  margin-bottom: 1.5rem;
+  margin-left: 1.6rem;
+  padding-left: 1.6rem;
+}
+
+li::marker {
+  color: hsl(332, 51%, 32%);
+}
+
+.calorie-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 2.4rem;
+}
+.calorie-table tr:last-child {
+  border-bottom: none;
+}
+.calorie-table tr {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+.calorie-table th,
+.calorie-table td {
+  text-align: left;
+  padding: 1.2rem 3.2rem;
+}
+.calorie-table th {
+  font-weight: 400;
+  color: inherit;
+}
+.calorie-table td {
+  color: hsl(332, 51%, 32%);
+  font-weight: 600;
+}
+
+@media (max-width: 24em) {
+  .main-container {
+    margin: 0;
+    padding: 0;
+  }
+
+  .img-container {
+    padding: 0;
+  }
+}
